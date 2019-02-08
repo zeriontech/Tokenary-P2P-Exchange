@@ -1,14 +1,15 @@
-# Tokenary Asset Swapper
-### Freely exchange your favorite tokenized assets with friends nearby
+# Tokenary P2P Exchange 
+### Instantly trade your favorite NFTs and ERC20s with friends nearby
 
-We give users the ability to easily exchange assets with friends or strangers nearby after performing negotiation in real life. This solution provides more freedom and flexibility to users.
- - Users could easily trade assets without relayers fees in case they settle term in persons.
-- Users could find liquidy for rare items on meetups, game conferences, and other offline activities
-- ‘Friendly’ deals are not exposed to the public, and there is no risk of frontrunning 
-- Users get trustless way to exchange users without risk of fraud on another side
+We give users the ability to easily exchange assets with friends or strangers nearby after negotiating in real life. 
+* Users can trade illiquid assets like NFTs 
+* Users can find deals on meetups, game conferences, and other offline activities
+* Private deals are not exposed to the public orderbooks, and there is no risk of frontrunning 
+* Users get trustless way to trade without risk of fraud
+
 
 ### How it works
-Tokenary uses connectivity technology to find people nearby who want to exchange their assets with you. After the connection between two devices is established Tokenary uses 0x protocol alongside with web3swift framework to create and sign orders on the first device and send it to network from another one.
+After negotiating the terms of the trade, the first device creates a 0x order. The second device then signs the transaction to settle the order through 0x protocol. Tokenary app uses Web3Swift.io library to communicate with an Ethereum node and sign the transaction. We also use Apple Connectivity to search for the devices nearby.
 
 ### Screenshots
 <table cellspacing="10">
