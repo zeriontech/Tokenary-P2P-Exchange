@@ -11,7 +11,7 @@ We give users the ability to easily exchange assets with friends or strangers ne
 ### How it works
 After negotiating the terms of the trade, the first device creates a 0x order. The second device then signs the transaction to settle the order through 0x protocol. Tokenary app uses Web3Swift.io library to communicate with an Ethereum node and sign the transaction. We also use Apple Connectivity to search for the devices nearby.
 
-[<b>Watch demo video</b>](https://youtubevideourl)
+[<b>Watch demo video</b>](https://youtu.be/fS9pqt4jIwM)
 
 ### Screenshots
 <table cellspacing="10">
